@@ -3,4 +3,5 @@
 released_declarative_hook<-:
   foo: bar
 
-this: that
+released_hook->: released foo
+
