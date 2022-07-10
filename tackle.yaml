@@ -5,3 +5,5 @@ released_declarative_hook<-:
 
 released_hook->: released foo
 
+released_added_later->: released_added_later bar
+
