@@ -4,7 +4,7 @@ from tackle import BaseHook, Field
 class ReleasedFixtureHook(BaseHook):
     """A fixture."""
 
-    hook_type: str = 'released'
+    hook_name: str = 'released'
     src: str = Field(..., description="A fixture source.")
     args: list = ['src']
 
@@ -15,7 +15,7 @@ class ReleasedFixtureHook(BaseHook):
 class AddedLaterReleasedFixtureHook(BaseHook):
     """A hook that should not be available as it has been added after release."""
 
-    hook_type: str = 'released_added_later'
+    hook_name: str = 'released_added_later'
     src: str = Field(..., description="A fixture source.")
     args: list = ['src']
 
