@@ -1,9 +1,6 @@
-
-
-released_declarative_hook<-:
+TackleFileHook<-:
   foo: bar
 
-released_hook->: released foo
-
-released_added_later->: released_added_later bar
-
+hooks_dir_hook->: HooksDirHook
+python_hook->: python_hook
+tackle_file_hook->: TackleFileHook
