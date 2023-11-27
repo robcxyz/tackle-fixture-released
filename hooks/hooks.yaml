@@ -1,3 +1,4 @@
 HooksDirHook<-:
   foo:
     type: str
+    default: bar
