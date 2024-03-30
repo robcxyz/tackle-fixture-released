@@ -4,7 +4,7 @@ from tackle import BaseHook, Field
 class ReleasedFixtureHook(BaseHook):
     """A fixture."""
 
-    hook_name: str = 'python_hook'
+    hook_name = 'python_hook'
     src: str = Field(..., description="A fixture source.")
     args: list = ['src']
 
